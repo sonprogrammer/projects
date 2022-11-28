@@ -1,0 +1,291 @@
+23-Oct-2022 17:00:46.881 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.83
+23-Oct-2022 17:00:46.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 21:11:09 UTC
+23-Oct-2022 17:00:46.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.83.0
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     12.6
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-16.jdk/Contents/Home
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          16.0.2+7
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/youngjinson/Downloads/apache-tomcat-8.5.83
+23-Oct-2022 17:00:46.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/youngjinson/Downloads/apache-tomcat-8.5.83
+23-Oct-2022 17:00:46.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 17:00:46.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 17:00:46.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 17:00:46.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/youngjinson/Downloads/apache-tomcat-8.5.83/conf/logging.properties
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/youngjinson/Downloads/apache-tomcat-8.5.83
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/youngjinson/Downloads/apache-tomcat-8.5.83
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/youngjinson/Downloads/apache-tomcat-8.5.83/temp
+23-Oct-2022 17:00:46.891 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/youngjinson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Oct-2022 17:00:46.916 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+23-Oct-2022 17:00:46.971 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 491 ms
+23-Oct-2022 17:00:47.004 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+23-Oct-2022 17:00:47.004 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.83]
+23-Oct-2022 17:00:47.010 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/docs]을(를) 배치합니다.
+23-Oct-2022 17:00:47.209 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/docs]에 대한 배치가 [197] 밀리초에 완료되었습니다.
+23-Oct-2022 17:00:47.210 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/manager]을(를) 배치합니다.
+23-Oct-2022 17:00:47.238 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/manager]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+23-Oct-2022 17:00:47.239 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/examples]을(를) 배치합니다.
+23-Oct-2022 17:00:47.427 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/examples]에 대한 배치가 [188] 밀리초에 완료되었습니다.
+23-Oct-2022 17:00:47.428 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/ROOT]을(를) 배치합니다.
+23-Oct-2022 17:00:47.443 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/ROOT]에 대한 배치가 [15] 밀리초에 완료되었습니다.
+23-Oct-2022 17:00:47.444 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/host-manager]을(를) 배치합니다.
+23-Oct-2022 17:00:47.460 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/host-manager]에 대한 배치가 [16] 밀리초에 완료되었습니다.
+23-Oct-2022 17:00:47.462 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+23-Oct-2022 17:00:47.473 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 502 ms
+23-Oct-2022 17:07:27.784 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 변경된 소스 [file:/Users/youngjinson/Downloads/apache-tomcat-8.5.83/conf/tomcat-users.xml](으)로부터 메모리 사용자 데이터베이스 [UserDatabase]을(를) 다시 로드합니다.
+23-Oct-2022 17:07:27.787 심각 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.open 지정된 사용자 데이터베이스 [conf/tomcat-users.xml]을(를) 찾을 수 없었습니다.
+23-Oct-2022 17:07:27.787 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.open [conf/tomcat-users.xml]을(를) 닫지 못했습니다.
+	java.io.FileNotFoundException: /Users/youngjinson/Downloads/apache-tomcat-8.5.83/conf/tomcat-users.xml (No such file or directory)
+		at java.base/java.io.FileInputStream.open0(Native Method)
+		at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:470)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:759)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+23-Oct-2022 17:07:28.309 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 []의 배치를 제거합니다.
+23-Oct-2022 17:07:28.339 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1734)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1673)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1610)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:455)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5506)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:844)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1458)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1383)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+23-Oct-2022 17:07:28.852 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/examples]의 배치를 제거합니다.
+23-Oct-2022 17:07:28.859 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [examples]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:257)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1173)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1732)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1673)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1610)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:455)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5506)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:844)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1458)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1383)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 24 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 27 more
+	Caused by: java.nio.file.NoSuchFileException: /Users/youngjinson/Downloads/apache-tomcat-8.5.83/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1230)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:707)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:241)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
+		... 32 more
+23-Oct-2022 17:07:29.368 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/host-manager]의 배치를 제거합니다.
+23-Oct-2022 17:07:29.371 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [host-manager]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1734)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1673)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1610)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:455)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5506)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:844)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1458)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1383)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+23-Oct-2022 17:07:29.881 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/manager]의 배치를 제거합니다.
+23-Oct-2022 17:07:29.884 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [manager]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1734)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1673)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1610)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:455)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5506)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:844)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1458)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1383)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+23-Oct-2022 17:07:30.390 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/docs]의 배치를 제거합니다.
+23-Oct-2022 17:07:30.393 경고 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [docs]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1734)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1673)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1610)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:455)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5506)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:844)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1458)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1383)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+23-Oct-2022 18:28:23.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/8.5.83
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 21:11:09 UTC
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  8.5.83.0
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     12.6
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-16.jdk/Contents/Home
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          16.0.2+7
+23-Oct-2022 18:28:23.034 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+23-Oct-2022 18:28:23.035 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83
+23-Oct-2022 18:28:23.035 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/conf/logging.properties
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 18:28:23.036 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Oct-2022 18:28:23.037 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+23-Oct-2022 18:28:23.037 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83
+23-Oct-2022 18:28:23.037 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83
+23-Oct-2022 18:28:23.037 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/temp
+23-Oct-2022 18:28:23.037 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/youngjinson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Oct-2022 18:28:23.064 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+23-Oct-2022 18:28:23.083 심각 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1115)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:336)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:225)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:636)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1112)
+		... 13 more
+23-Oct-2022 18:28:23.084 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 425 ms
+23-Oct-2022 18:28:23.117 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+23-Oct-2022 18:28:23.118 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/8.5.83]
+23-Oct-2022 18:28:23.124 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/docs]을(를) 배치합니다.
+23-Oct-2022 18:28:23.319 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/docs]에 대한 배치가 [194] 밀리초에 완료되었습니다.
+23-Oct-2022 18:28:23.320 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/manager]을(를) 배치합니다.
+23-Oct-2022 18:28:23.347 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/manager]에 대한 배치가 [26] 밀리초에 완료되었습니다.
+23-Oct-2022 18:28:23.347 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/examples]을(를) 배치합니다.
+23-Oct-2022 18:28:23.538 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/examples]에 대한 배치가 [191] 밀리초에 완료되었습니다.
+23-Oct-2022 18:28:23.538 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/ROOT]을(를) 배치합니다.
+23-Oct-2022 18:28:23.552 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/ROOT]에 대한 배치가 [14] 밀리초에 완료되었습니다.
+23-Oct-2022 18:28:23.552 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/host-manager]을(를) 배치합니다.
+23-Oct-2022 18:28:23.569 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/youngjinson/Downloads/톰캣,dbproject/apache-tomcat-8.5.83/webapps/host-manager]에 대한 배치가 [17] 밀리초에 완료되었습니다.
+23-Oct-2022 18:28:23.571 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 486 ms
+23-Oct-2022 18:28:23.576 심각 [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:552)
+		at java.base/sun.nio.ch.Net.bind(Net.java:541)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:446)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:783)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:729)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+23-Oct-2022 18:28:23.577 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+23-Oct-2022 18:28:23.577 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+23-Oct-2022 18:28:23.592 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+23-Oct-2022 18:28:23.593 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
