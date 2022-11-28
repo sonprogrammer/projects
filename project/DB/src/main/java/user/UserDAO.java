@@ -19,11 +19,7 @@ public class UserDAO {
 	public UserDAO() {
 		try {
 			  String dbURL = "jdbc:mysql://localhost:3306/DB?useSSL=false";
-			// localhost:3306 -> 컴퓨터에 설치된 mysql, port 3306의 DB(내가 저장한이)라는 데이터베이스에 접근
 			//DB는 mysql에 내가 만든 데이터베이스임	
-			//String dbURL = "jdbc --- BBS?allowPublicKeyRetrieval=true";
-			//"jdbc:mysql://localhost:3306/DB?characterEncoding=UTF-8&sereverTimezone=UTC";
-
 			String dbID = "root";
 			String dbPassword = "thsdudwls";
 			Class.forName("com.mysql.jdbc.Driver");
