@@ -17,13 +17,9 @@ public class BbsDAO {
 	public BbsDAO() {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/DB?useSSL=false";
-					
-					//"jdbc:mysql://localhost:3306/DB";
 
 			// localhost:3306 -> 컴퓨터에 설치된 mysql, port 3306의 DB(내가 저장한이)라는 데이터베이스에 접근
 
-			//"jdbc:mysql://localhost:3306/DB?characterEncoding=UTF-8&sereverTimezone=UTC"
-			// String dbURL = "jdbc --- BBS?allowPublicKeyRetrieval=true";
 
 
 			String dbID = "root";
@@ -54,7 +50,7 @@ public class BbsDAO {
 
 	public int getNext() {
 		String SQL = "SELECT bbsID FROM bbs ORDER BY bbsID DESC";
-		// #@$#%@#%@$%여기서 DB인지 BBS인지 저기에 들어갈께 프로젝트 이름인지 아님 mysql에 넣은 그 DB이름인지보기
+
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			rs = pstmt.executeQuery();
@@ -87,7 +83,8 @@ public class BbsDAO {
 	}
 
 	public ArrayList<Bbs> getList(int pageNumber) {
-		String SQL = "SELECT * FROM bbs WHERE bbsID <? AND bbsAvailable = 1 ORDER BY bbsID DESC LIMIT 10";
+		String SQL = "SELECT * FROM bbs WHERE bbsID <? AND bbsAvailable = 1 ORDER 
+BY bbsID DESC LIMIT 10";
 		// bbsID가 특정조건보다 작을때 available =1 (삭제되지 않고), 10개까지 제한해서 나타냄
 		ArrayList<Bbs> list = new ArrayList<Bbs>();
 		try {
@@ -119,7 +116,8 @@ public class BbsDAO {
 
 	public boolean nextPage(int pageNumber) // 페이징 처리
 	{
-		String SQL = "SELECT * FROM bbs WHERE bbsID <? AND bbsAvailable = 1 ORDER BY bbsID DESC LIMIT 10";
+		String SQL = "SELECT * FROM bbs WHERE bbsID <? AND bbsAvailable = 1 ORDER
+  BY bbsID DESC LIMIT 10";
 		// bbsID가 특정조건보다 작을때, Available = 1 (삭제되지 않고), 10개까지 제한해서 나타냄
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
@@ -144,7 +142,6 @@ public class BbsDAO {
 
 	public Bbs getBbs(int bbsID) {
 		String SQL = "SELECT * FROM bbs WHERE bbsID = ?";
-		// #@$#%@#%@$%여기서 DB인지 BBS인지 저기에 들어갈께 프로젝트 이름인지 아님 mysql에 넣은 그 DB이름인지보기
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, bbsID);
